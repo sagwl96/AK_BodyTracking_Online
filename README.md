@@ -10,7 +10,7 @@ Before starting:
     - Microsoft.Azure.Kinect.BodyTracking.Dependencies.cuDNN
     
 What code does:
-- Detects bodies and prints the joints (32 of them) on screen.
+- Detects bodies and prints the joints (32 of them) on screen. (Tried building and running on Visual Studio 2019. Use x64 to build as x86 throws error with body tracking SDK)
     
 Things left to do:
 - Dump detected joints into JSON file
